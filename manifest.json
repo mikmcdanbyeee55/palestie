@@ -1,0 +1,16 @@
+{
+    "id": "custom-addon",
+    "version": "1.0.0",
+    "name": "Custom Addon",
+    "description": "Addon serving a single magnet link with custom content",
+    "resources": ["catalog"],
+    "types": ["movie"],
+    "idProperty": "imdb",
+    "catalogs": [
+        {
+            "id": "custom-catalog",
+            "name": "Custom Catalog",
+            "type": "movie"
+        }
+    ]
+}
